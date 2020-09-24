@@ -1,0 +1,70 @@
+2020-08-07 16:10:31.839 | INFO     | httprunner.runner:test_start:450 - Start to run testcase: testcase description, TestCase ID: 698d785b-63c7-4200-8120-3393f6d1d0c8
+2020-08-07 16:10:31.839 | INFO     | httprunner.runner:__run_step:292 - run step begin: /loginByMobile.do >>>>>>
+2020-08-07 16:10:31.917 | DEBUG    | httprunner.client:request:186 - client IP: 127.0.0.1, Port: 55141
+2020-08-07 16:10:31.917 | DEBUG    | httprunner.client:request:194 - server IP: 127.0.0.1, Port: 8888
+2020-08-07 16:10:31.918 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : POST
+url      : http://pre-exam.yzou.cn/loginByMobile.do
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "Connection": "keep-alive",
+    "Host": "pre-exam.yzou.cn",
+    "Content-Length": "62",
+    "transferId": "c285aab57bbe46beaa7cd172d53460e3",
+    "uri": "http://pre-exam.yzou.cn/toLogin.do",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "title": "%E8%BF%9C%E6%99%BA%E6%95%99%E8%82%B2%E4%BA%91%E6%95%99%E5%AD%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F",
+    "transferSeq": "1",
+    "X-Requested-With": "XMLHttpRequest",
+    "sendTime": "1596689950267",
+    "Origin": "http://pre-exam.yzou.cn",
+    "Referer": "http://pre-exam.yzou.cn/toLogin.do",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Cookie": "SESSION=a7559b1b-706a-4f41-a9fe-2b64ca443dd1",
+    "HRUN-Request-ID": "HRUN-698d785b-63c7-4200-8120-3393f6d1d0c8-831840"
+}
+cookies  : {}
+body     : isOpenImage=&mobile=13560148201&ImgValidCode=&validCode=888888
+
+2020-08-07 16:10:31.919 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx",
+    "Date": "Fri, 07 Aug 2020 08:10:32 GMT",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding, Origin",
+    "Access-Control-Allow-Origin": "http://pre-exam.yzou.cn",
+    "Access-Control-Expose-Headers": "auth",
+    "Access-Control-Allow-Credentials": "true",
+    "Content-Disposition": "inline;filename=f.txt",
+    "Set-Cookie": "SESSION=b6463e40-a80d-4012-8312-97673a676462;path=/;HttpOnly",
+    "Content-Encoding": "gzip",
+    "Connection": "keep-alive"
+}
+cookies  : {
+    "SESSION": "b6463e40-a80d-4012-8312-97673a676462"
+}
+encoding : UTF-8
+content_type : application/json;charset=UTF-8
+body     : {
+    "code": "00",
+    "body": "SUCCESS",
+    "msg": "",
+    "ok": true
+}
+
+2020-08-07 16:10:31.919 | INFO     | httprunner.client:request:217 - status_code: 200, response_time(ms): 76.8 ms, response_length: 0 bytes
+2020-08-07 16:10:31.920 | INFO     | httprunner.response:extract:176 - extract mapping: {'v_code': '00'}
+2020-08-07 16:10:31.920 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2020-08-07 16:10:31.920 | INFO     | httprunner.response:validate:246 - assert headers."Content-Type" equal application/json;charset=UTF-8(str)	==> pass
+2020-08-07 16:10:31.920 | INFO     | httprunner.response:validate:246 - assert body.code equal 00(str)	==> pass
+2020-08-07 16:10:31.920 | INFO     | httprunner.response:validate:246 - assert body.body equal SUCCESS(str)	==> pass
+2020-08-07 16:10:31.921 | INFO     | httprunner.response:validate:246 - assert body.msg equal (str)	==> pass
+2020-08-07 16:10:31.921 | INFO     | httprunner.response:validate:246 - assert body.ok equal True(bool)	==> pass
+2020-08-07 16:10:31.921 | INFO     | httprunner.runner:__run_step:304 - run step end: /loginByMobile.do <<<<<<
+

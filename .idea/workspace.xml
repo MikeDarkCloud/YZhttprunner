@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63407684-c205-4589-843b-ee57165ee98b" name="Default Changelist" comment="优化multipart类型的请求实现">
+      <change afterPath="$PROJECT_DIR$/casesfile/自动化测试用例.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/har/cj_edit_student_info_1_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/Single_Api_Case/single_findRecruitStudents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/Single_Api_Case/single_findRecruitStudents_demo_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/Single_Api_Case/single_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/Single_Api_Case/single_login_pass_p_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/Single_Api_Case/single_toStudentList_demo_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/loginModule/loginUser.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/studentModule/cj_register_date.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YZhttprunner.md" beforeDir="false" afterPath="$PROJECT_DIR$/YZhttprunner.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debugtalk.py" beforeDir="false" afterPath="$PROJECT_DIR$/debugtalk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/har/login.har" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/Single_Api_Case/single_findRecruitStudents_pass_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/Single_Api_Case/single_findRecruitStudents_pass_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/Single_Api_Case/single_login_fail_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/Single_Api_Case/single_login_fail_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/Single_Api_Case/single_login_pass_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/Single_Api_Case/single_login_pass_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/1bfd07d42c0b24e4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/2c0c44929ecf8091.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/3482404b6733b69f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/4781bce91bb9a37f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/4ee70b6c074a067.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/5539a42ccc2eadee.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/697ebc73d0fe6c82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/940ab6d8d50fe3f3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/9fee855474aeaba.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/a20d5920e1ecc1fe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/aca6e9a61008b6b2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/b8d4033bf7a336d0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/bea720f64da4e2b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/c34e35eac1739903.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/attachments/dc0d5796f91d9b27.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/149a29c6d2b32467.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/14c7cbf67500f470.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/1aa3242abad76f87.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/1ecd7de89f8963c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/38b232c6cc6c98a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/5b9f24fc7f6e38b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/5d69a396a43177aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/644e763304dff5ed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/8997917c63ef4788.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/8c506c78bcb37613.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/a78289514340f6e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/baac544b1341f7fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/e1c1bfaae4f60d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/f2a71d0f5ffdc8ff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/test-cases/f406f93ab56c4145.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/allure-report/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/cj_edit_student_info_1_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/cj_edit_student_info_1_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/cj_student_register_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/cj_student_register_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/gk_edit_student_info_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/gk_edit_student_info_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/gk_student_register_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/gk_student_register_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/login_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/0b0fd973-4b3b-48df-a640-04bcfa0ed583-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/1cc5e183-e9c6-4fe6-9f20-8986c85abb8f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/1d2c65b9-a796-4b84-bf66-958a62b59d70-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/2648376d-9391-45bf-b1f0-afaac1632cea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/27c9a0bb-53d9-4077-8bfb-a10e68405a89-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/30475bf5-b1be-40f3-9872-71f628a9534c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/42ff3712-32ad-42a6-9c1b-32b790b4678f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/455dfa06-8064-41a2-9dac-3b9ad7e00e23-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/5323f857-c2f9-4884-ac75-38fbaff973c0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/53b07c58-0f3e-42d9-a570-20405249cf2f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/66a038a1-7d6c-4d57-a332-9bc2a631b1d7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/77e1db0c-a190-4cf6-8412-0ae7d13ba0ad-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/79ac1bdc-745a-49bc-a85d-f0014160b1b7-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/7dcedd40-6ef8-46f2-b459-125073423bd4-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/7f95f4fb-0674-428a-acb7-0087b32e4b0e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/8bbf4cac-0077-402d-8b6d-c2fac3ddf705-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/8dea9fda-4cb4-48eb-9b11-af1c67a732f1-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/9571f7ca-6811-45ab-b24a-23bd1c309ebc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/974c936a-39b1-4460-a3c7-36a5ca4c1764-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/982308f5-4d0f-45f8-bb43-bc751b182d50-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/9f8e0019-02de-4c78-b7eb-2851c372fdb3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/a68317be-4c87-4edb-a3c1-1a80c5cc103c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/b6e67ab0-a1ae-40ec-9302-f0d4363f3d9c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/bccc6e16-2561-4fdf-b6e7-400bc37f7f7c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/c8b19ca4-1b97-45da-980c-929f664e3d70-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/d03db185-003c-4138-bfa3-48ee006c938c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/d7b2bf1b-29bc-43b0-a415-ec95fd133235-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/db3f071d-2118-436d-9ff8-5bc644d2e974-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/ee7e7f44-d6d7-4171-86d3-1fcdde4d1587-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/report/f5f535d8-b78b-4d24-a04d-169e7b3fe70e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/zk_student_register_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/YZ_Student_Business_Case/zk_student_register_test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gChf1wG7MGhXToNbGGpNpFHdA7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../domoe" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\YZhttprunner\YZhttprunner\testcases\Single_Api_Case" />
+      <recent name="C:\github\YZhttprunner\YZhttprunner\testcases\Single_Api_Case\dd" />
+      <recent name="C:\github\YZhttprunner\YZhttprunner\testdata\loginModule" />
+      <recent name="C:\github\YZhttprunner\YZhttprunner\testcases\YZ_Student_Business_Case" />
+      <recent name="C:\github\YZhttprunner\YZhttprunner" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\YZhttprunner\YZhttprunner\testcases\Single_Api_Case" />
+      <recent name="C:\github\YZhttprunner\YZhttprunner\testcases" />
+      <recent name="C:\github\YZhttprunner\YZhttprunner\testcases\demo" />
+      <recent name="C:\github\YZhttprunner\YZhttprunner\har" />
+      <recent name="C:\github\YZApiTest\testcases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for single_login.TestCaseLogin">
+    <configuration name="pytest for single_login.TestCaseLogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="YZhttprunner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/Single_Api_Case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;single_login.TestCaseLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_demo1.TestCaseRequestWithTestcaseReference" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="YZhttprunner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/Single_Api_Case/.pytest_cache" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_demo1.TestCaseRequestWithTestcaseReference&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in C:/github/YZhttprunner/YZhttprunner/testcases/Single_Api_Case/.pytest_cache/test_demo1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="YZhttprunner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/Single_Api_Case/.pytest_cache" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/Single_Api_Case/.pytest_cache/test_demo1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in single_findRecruitStudents.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="YZhttprunner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/Single_Api_Case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/Single_Api_Case/single_findRecruitStudents.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in single_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="YZhttprunner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/Single_Api_Case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/Single_Api_Case/single_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest for test_demo1.TestCaseRequestWithTestcaseReference" />
+      <item itemvalue="Python tests.pytest in C:/github/YZhttprunner/YZhttprunner/testcases/Single_Api_Case/.pytest_cache/test_demo1.py" />
+      <item itemvalue="Python tests.pytest in single_login.py" />
+      <item itemvalue="Python tests.pytest for single_login.TestCaseLogin" />
+      <item itemvalue="Python tests.pytest in single_findRecruitStudents.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for single_login.TestCaseLogin" />
+        <item itemvalue="Python tests.pytest in single_login.py" />
+        <item itemvalue="Python tests.pytest in single_findRecruitStudents.py" />
+        <item itemvalue="Python tests.pytest in C:/github/YZhttprunner/YZhttprunner/testcases/Single_Api_Case/.pytest_cache/test_demo1.py" />
+        <item itemvalue="Python tests.pytest for test_demo1.TestCaseRequestWithTestcaseReference" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63407684-c205-4589-843b-ee57165ee98b" name="Default Changelist" comment="" />
+      <created>1596673228622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596673228622</updated>
+      <workItem from="1597624589149" duration="8000" />
+      <workItem from="1597624630976" duration="53000" />
+      <workItem from="1597624712397" duration="694000" />
+      <workItem from="1597625423597" duration="12554000" />
+      <workItem from="1597650251914" duration="23693000" />
+      <workItem from="1598575286368" duration="1981000" />
+      <workItem from="1599466162837" duration="2577000" />
+      <workItem from="1599633148145" duration="16530000" />
+      <workItem from="1600048227484" duration="10318000" />
+    </task>
+    <task id="LOCAL-00001" summary="删除模板文件">
+      <created>1597118300912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597118300912</updated>
+    </task>
+    <task id="LOCAL-00002" summary="优化multipart类型的请求实现">
+      <created>1597282077458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597282077458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="删除模板文件" />
+    <MESSAGE value="优化multipart类型的请求实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化multipart类型的请求实现" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="704" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597650289928">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="704" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1597650289928" />
+    <state x="424" y="275" key="FileChooserDialogImpl" timestamp="1600218031923">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="424" y="275" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1600218031923" />
+    <state x="816" y="271" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1597890500330" />
+    <state width="1876" height="496" key="GridCell.Tab.0.bottom" timestamp="1599807876398">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="496" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599807876398" />
+    <state width="1464" height="325" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1597967936895" />
+    <state width="1876" height="496" key="GridCell.Tab.0.center" timestamp="1599807876397">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="496" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599807876397" />
+    <state width="1464" height="325" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1597967936895" />
+    <state width="1876" height="496" key="GridCell.Tab.0.left" timestamp="1599807876397">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="496" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599807876397" />
+    <state width="1464" height="325" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1597967936876" />
+    <state width="1876" height="496" key="GridCell.Tab.0.right" timestamp="1599807876398">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="496" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599807876398" />
+    <state width="1464" height="325" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1597967936895" />
+    <state width="1876" height="496" key="GridCell.Tab.1.bottom" timestamp="1599807828343">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="496" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599807828343" />
+    <state width="1464" height="325" key="GridCell.Tab.1.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1597967936903" />
+    <state width="1876" height="496" key="GridCell.Tab.1.center" timestamp="1599807828342">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="496" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599807828342" />
+    <state width="1464" height="325" key="GridCell.Tab.1.center/62.0.1858.1080@62.0.1858.1080" timestamp="1597967936896" />
+    <state width="1876" height="496" key="GridCell.Tab.1.left" timestamp="1599807828342">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="496" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599807828342" />
+    <state width="1464" height="325" key="GridCell.Tab.1.left/62.0.1858.1080@62.0.1858.1080" timestamp="1597967936896" />
+    <state width="1876" height="496" key="GridCell.Tab.1.right" timestamp="1599807828343">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="496" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599807828343" />
+    <state width="1464" height="325" key="GridCell.Tab.1.right/62.0.1858.1080@62.0.1858.1080" timestamp="1597967936896" />
+    <state x="503" y="195" key="SettingsEditor" timestamp="1599818277812">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="503" y="195" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1599818277812" />
+    <state x="595" y="216" width="575" height="616" key="find.popup" timestamp="1597797474809">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="551" y="216" width="594" height="616" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1597651907903" />
+    <state x="595" y="216" width="575" height="616" key="find.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1597797474809" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/YZhttprunner$pytest_in_single_login_pass_p_test_py.coverage" NAME="pytest in single_login_pass_p_test.py Coverage Results" MODIFIED="1597647244769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/Single_Api_Case" />
+    <SUITE FILE_PATH="coverage/YZhttprunner$pytest_in_single_toStudentList_demo_test_py.coverage" NAME="pytest in single_toStudentList_demo_test.py Coverage Results" MODIFIED="1597824918265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/Single_Api_Case" />
+    <SUITE FILE_PATH="coverage/YZhttprunner$pytest_in_test_demo1_py.coverage" NAME="pytest in test_demo1.py Coverage Results" MODIFIED="1599635165607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/Single_Api_Case/.pytest_cache" />
+    <SUITE FILE_PATH="coverage/YZhttprunner$pytest_in_single_findRecruitStudents_py.coverage" NAME="pytest in single_findRecruitStudents.py Coverage Results" MODIFIED="1599637674343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/Single_Api_Case" />
+    <SUITE FILE_PATH="coverage/YZhttprunner$pytest_for_single_toStudentList_demo_test_TestCaseLogin.coverage" NAME="pytest for single_toStudentList_demo_test.TestCaseLogin Coverage Results" MODIFIED="1597657759604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/Single_Api_Case" />
+    <SUITE FILE_PATH="coverage/YZhttprunner$pytest_in_single_findRecruitStudents_demo_test_py.coverage" NAME="pytest in single_findRecruitStudents_demo_test.py Coverage Results" MODIFIED="1597626790658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/Single_Api_Case" />
+    <SUITE FILE_PATH="coverage/YZhttprunner$pytest_in_single_login_py.coverage" NAME="pytest in single_login.py Coverage Results" MODIFIED="1599807692470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/Single_Api_Case" />
+    <SUITE FILE_PATH="coverage/YZhttprunner$pytest_for_test_demo1_TestCaseRequestWithTestcaseReference.coverage" NAME="pytest for test_demo1.TestCaseRequestWithTestcaseReference Coverage Results" MODIFIED="1599635037082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/Single_Api_Case/.pytest_cache" />
+    <SUITE FILE_PATH="coverage/YZhttprunner$pytest_for_single_login_TestCaseLogin.coverage" NAME="pytest for single_login.TestCaseLogin Coverage Results" MODIFIED="1599807825122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/Single_Api_Case" />
+  </component>
+</project>
